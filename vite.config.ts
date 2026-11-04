@@ -18,6 +18,7 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss(),
   ],
+  base: '/sac26/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
